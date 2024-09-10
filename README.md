@@ -1,8 +1,9 @@
 - 👋 Hi, I’m @Sammxes
-- 👀 I’m interested in open AI to build apps for blind people
-- 🌱 I’m currently learning coding pythom
-- 💞️ I’m looking to collaborate on develop in app proyects whit AI integration
-- 📫 How to reach me dmdvision@icloud.com
+- 👀 deploy a open AI BOT
+-  coding pythom, JSON. c++, WSL,        VM, ish, 🐍💻🦴🐉🎯🛰️🔐
+- 📭 safenet@proton.me
+🕸️🌏🛰️ https://mastodont.social/@Samxn
+-
 
 <!---
 Sammxes/Sammxes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

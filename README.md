@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Sammxes
 - 👀 Deploy A Visual Guide App. open AI BOT
 -  coding pythom, JSON. c++,html, VM, ish, 🐍💻🦴🐉🎯🛰️🔐
-- 📭 safenet@proton.me
+- 📭 safenetmx@proton.me
 🕸️🌏🛰️ https://mastodont.social/@Samxn
 -
 

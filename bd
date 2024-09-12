@@ -1,0 +1,87 @@
+class App:
+    def __init__(self):
+        self.menu_options = {
+            "1": ("Identificar comida", self.identify_food),
+            "2": ("Recordar rutas", self.save_route),
+            "3": ("Guiar en el entorno", self.environment_guide),
+            "4": ("Comprar artículos", self.shopping_assistant),
+            "5": ("Revisar salud", self.health_check),
+            "0": ("Salir", self.exit_app)
+        }
+        self.running = True
+        
+    def welcome(self):
+        print("Bienvenido a la app. ¿Qué te gustaría hacer hoy?")
+        self.menu()
+
+    def menu(self):
+        while self.running:
+            print("\nOpciones del menú:")
+            for key, (description, _) in self.menu_options.items():
+                print(f"{key}. {description}")
+            choice = input("Selecciona una opción: ").strip()
+
+            if choice in self.menu_options:
+                _, action = self.menu_options[choice]
+                action()  # Call the associated method
+            else:
+                print("Opción inválida, por favor intenta de nuevo.")
+
+    def identify_food(self):
+        print("Función: Identificar comida.")
+        # Aquí iría el código para procesar la imagen de la comida.
+
+    def save_route(self):
+        print("Función: Recordar rutas.")
+        # Aquí iría el código para guardar y seguir rutas con GPS.
+
+    def environment_guide(self):
+        print("Función: Guía en el entorno.")
+        # Aquí iría el código para reconocer el entorno con la cámara.
+
+    def shopping_assistant(self):
+        print("Función: Asistente de compras.")
+        # Aquí iría el código paraclass App:
+    def __init__(self):
+        self.menu_options = {
+            "1": ("Identificar comida", self.identify_food),
+            "2": ("Recordar rutas", self.save_route),
+            "3": ("Guiar en el entorno", self.environment_guide),
+            "4": ("Comprar artículos", self.shopping_assistant),
+            "5": ("Revisar salud", self.health_check),
+            "0": ("Salir", self.exit_app)
+        }
+        self.running = True
+        
+    def welcome(self):
+        print("Bienvenido a la app. ¿Qué te gustaría hacer hoy?")
+        self.menu()
+
+    def menu(self):
+        while self.running:
+            print("\nOpciones del menú:")
+            for key, (description, _) in self.menu_options.items():
+                print(f"{key}. {description}")
+            choice = input("Selecciona una opción: ").strip()
+
+            if choice in self.menu_options:
+                _, action = self.menu_options[choice]
+                action()  # Call the associated method
+            else:
+                print("Opción inválida, por favor intenta de nuevo.")
+
+    def identify_food(self):
+        print("Función: Identificar comida.")
+        # Aquí iría el código para procesar la imagen de la comida.
+
+    def save_route(self):
+        print("Función: Recordar rutas.")
+        # Aquí iría el código para guardar y seguir rutas con GPS.
+
+    def environment_guide(self):
+        print("Función: Guía en el entorno.")
+        # Aquí iría el código para reconocer el entorno con la cámara.
+
+    def shopping_assistant(self):
+        print("Función: Asistente de compras.")
+        # Aquí iría el código para ex

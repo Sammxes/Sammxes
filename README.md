@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Sammxes
-- 👀 deploy a open AI BOT
--  coding pythom, JSON. c++, WSL,        VM, ish, 🐍💻🦴🐉🎯🛰️🔐
+- 👀 Deploy A Visual Guide App. open AI BOT
+-  coding pythom, JSON. c++,html, VM, ish, 🐍💻🦴🐉🎯🛰️🔐
 - 📭 safenet@proton.me
 🕸️🌏🛰️ https://mastodont.social/@Samxn
 -

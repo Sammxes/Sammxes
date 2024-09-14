@@ -1,3 +1,6 @@
+# Inicializa la app
+app = App()
+app.welcome()
 class App:
     def __init__(self):
         self.menu_options = {
@@ -37,6 +40,3 @@ class App:
         print("Función: Revisar salud.")
         # Aquí iría el código para revisar registros de salud.
 
-# Inicializa la app
-app = App()
-app.welcome()

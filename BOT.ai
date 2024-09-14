@@ -1,0 +1,62 @@
+import openai
+
+# Configurar tu clave API de OpenAI
+openai.api_key = "TU_CLAVE_API_AQUÍ" 
+
+# Ejecutar el Bot
+if __name__ == "__main__":
+    smartketing_Bot()
+
+# Diccionario con las preguntas y respuestas predefinidas
+respuestas_bot = {
+    "¿Cuáles son los precios de los servicios de marketing?": "Los precios dependen del servicio específico, pero comienzan en $500 mensuales.",
+    "¿Qué horarios manejan para consultas?": "Ofrecemos consultas de lunes a viernes de 9:00 a.m. a 6:00 p.m.",
+    "¿Cómo puedo agendar una consulta?": "Puedes agendar una consulta visitando nuestro sitio web o contactándonos directamente al correo contacto@empresa.com.",
+    "¿Qué es una estrategia SEO?": "Una estrategia SEO se centra en mejorar la visibilidad de un sitio web en los motores de búsqueda a través de optimizaciones técnicas y de contenido.",
+    "¿Cuánto tiempo toma ver resultados de SEO?": "Los resultados de SEO generalmente se ven entre 3 a 6 meses dependiendo del nivel de competencia en tu industria.",
+    "¿Ofrecen servicios de creación de contenido?": "Sí, ofrecemos servicios de creación de contenido, incluyendo artículos, videos y gráficos personalizados.",
+    "¿Cuánto cuesta el servicio de creación de contenido?": "Los precios para la creación de contenido comienzan en $300 por pieza y varían según la complejidad.",
+    "¿Cuáles son los mejores días para publicar contenido?": "eso depende de tu público ideal. Pero normalmente los días donde la gente suele ver más contenido en las redes sociales o en medios digitales son los días martes y jueves.",
+    "¿Cómo puedo mejorar mi estrategia de marketing digital?": "Te recomendamos un análisis detallado de tu público, objetivo el uso de campañas con o de pago y una estrategia deseo sólida",
+    "¿Qué redes sociales me recomiendan para publicar mi publicidad?": "Normalmente recomendamos Facebook, Instagram, TikTok y LinkedIn, dependiendo de tu audiencia, puedes escalar a otras plataformas como YouTube y como fundamento básico para aseo una campaña de Google en los motores de búsqueda no puede fallar",
+    "¿Proyects?": "Nuestro trabajo es generar, implementar y analizar estrategias que te permitan obtener la mayor cantidad de clientes potenciales a través de plataformas digitales."
+}
+
+# Función para hacer una consulta a la API de OpenAI
+def consultar_chatgpt(pregunta):
+    response = openai.Completion.create(
+        engine="text-davinci-003",  # El modelo de ChatGPT que deseas usar
+        prompt=pregunta,
+        max_tokens=150
+    )
+    return response.choices[0].text.strip()
+
+# Función para el bot
+def bot_marketing():
+    print("Hola ! Soy tu B. De Marketing y publicidad. Puedes hacerme preguntas sobre los siguientes temas:")
+    print("1. Precios de Servicios")
+    print("2. Horarios y agendas")
+    print("3. Estrategia SEO")
+    print("4. Creación de contenido\n")
+
+    while True:
+        pregunta = input("Haz tu pregunta: ")
+
+        # Responder a la pregunta si está en el diccionario.
+        if pregunta.lower() in respuestas_bot:
+            respuesta = respuestas_bot[pregunta.lower()]
+            print(respuesta)
+        else:
+            print("No tengo una respuesta predefinida para eso. Consultando ChatGPT...")
+            respuesta = consultar_chatgpt(pregunta)
+            print(respuesta)
+
+        # Opción para salir del bot
+        salir = input("¿Quieres hacer otra pregunta? (sí/no): ").lower()
+        if salir != "sí":
+            print("Gracias por usar el bot. ¡Hasta pronto!")
+            break
+
+# Ejecutar el Bot
+if __name__ == "__main__":
+      smarketing_Bot()

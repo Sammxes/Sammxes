@@ -2,7 +2,7 @@
 
 >"Briding ethics, tech, and creativity to craft solutions that empower and inspire."
 
-![visitors](https://hitluf.com/badge/Sammxes))
+ ![visitors](https://hitluf.com/badge/Sammxes))
 
 ---
 

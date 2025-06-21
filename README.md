@@ -1,4 +1,4 @@
-# Sam P. 🚀💻
+# Sam P. 🚀 💻 
 
 >"Briding ethics, tech, and creativity to craft solutions that empower and inspire."
 
@@ -28,6 +28,28 @@ hey, I'm sam  a marketing director, ethical hacker with the designer, social adm
   | 🎥 cinematography| DSLR, Arri Alexa, red one, sunny is rewarding and a script 1st Camara assistant.
 
 ---
+
+  ## 🧾 Featured Proyects
+
+  ### Sentinel-X ⚔️🛡️
+  AI-Driven cyber defense suite build in kali-linux-text & image analysis, Real time Monitoring, Stealth mode.
+
+  ### ImVision 👀 🧭 🗺️
+  Mobile app prototype guiding the blind via voice amd camera, whit integrated health metrics & emergency alerts.
+
+  ### PythonAdvent 🎮 🕹️
+  Interactive educa  game teaching python basic to kids (9-15) with full vscode support for Mac M1 and windows.
+
+---
+
+  ## 📪 📩 Get in touch 
+
+  - **Email**: [dmd@imyourvision.tech](mailto:dmd@imyourvision.tech)
+
+---
+
+> "Let's Build something amazing together 🧑‍🚀
+
  
 <!---
 Sammxes/Sammxes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
